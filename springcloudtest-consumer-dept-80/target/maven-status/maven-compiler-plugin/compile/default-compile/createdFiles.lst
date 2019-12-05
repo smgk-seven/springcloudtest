@@ -1,0 +1,5 @@
+com\smgk\rule\MyRandonRule.class
+com\smgk\rule\MyRule.class
+com\smgk\springcloud\ApplicationConsumer80App.class
+com\smgk\springcloud\controller\DeptConsumerDeptController.class
+com\smgk\springcloud\config\ConfigBean.class

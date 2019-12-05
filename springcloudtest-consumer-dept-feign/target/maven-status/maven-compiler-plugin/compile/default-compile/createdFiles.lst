@@ -1,0 +1,3 @@
+com\smgk\springcloud\ApplicationConsumerFeignApp.class
+com\smgk\springcloud\controller\DeptConsumerDeptController.class
+com\smgk\springcloud\config\ConfigBean.class
