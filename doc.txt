@@ -1,1 +1,41 @@
-测试笔记
+DROP DATABASE  SPRINGCLOUDTEST02;
+CREATE DATABASE SPRINGCLOUDTEST02;
+USE SPRINGCLOUDTEST02;
+
+DROP TABLE IF EXISTS `dept`;
+
+CREATE TABLE dept (
+  dept_no bigint(20) NOT NULL AUTO_INCREMENT,
+  dept_name varchar(60) DEFAULT NULL,
+  db_source varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`dept_no`)
+);
+
+
+INSERT INTO dept(dept_name,db_source) VALUE ('开发部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('乜部门',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('后勤部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('人事部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('测试部',DATABASE());
+
+
+
+DROP DATABASE  SPRINGCLOUDTEST03;
+CREATE DATABASE SPRINGCLOUDTEST03;
+USE SPRINGCLOUDTEST03;
+
+DROP TABLE IF EXISTS `dept`;
+
+CREATE TABLE dept (
+  dept_no bigint(20) NOT NULL AUTO_INCREMENT,
+  dept_name varchar(60) DEFAULT NULL,
+  db_source varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`dept_no`)
+);
+
+
+INSERT INTO dept(dept_name,db_source) VALUE ('开发部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('乜部门',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('后勤部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('人事部',DATABASE());
+INSERT INTO dept(dept_name,db_source) VALUE ('测试部',DATABASE());

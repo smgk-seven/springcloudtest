@@ -4,8 +4,13 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudtest-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudtest-consumer-dept-80" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloudtest-consumer-dept-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-consumer-dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudtest-euraka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-euraka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-eureka-7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudtest-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-provider-dept-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-provider-dept-hystrix-8010" charset="UTF-8" />
   </component>
 </project>

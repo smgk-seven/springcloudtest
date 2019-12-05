@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.List;
-
 @RestController
-public class DeptConsumerController {
+public class DeptConsumerDeptController {
+
     @Autowired
     private RestTemplate restTemplate;
-    private static final String DEPT_SERVICE_PREFIX = "http://localhost:8001";
+
+    private static final String DEPT_SERVICE_PREFIX = "http://SPRINGCLOUDTEST-DEPT";
+
     /**
      * 添加一个部门
      * @param dept
@@ -40,4 +41,11 @@ public class DeptConsumerController {
         return restTemplate.getForObject(DEPT_SERVICE_PREFIX + "/dept", Msg.class);
     }
 
+    //获取服务端的信息
+    @RequestMapping(value = "/consumer/dept/discovery")
+    public Object discovery(){
+        return  restTemplate.getForObject(
+                DEPT_SERVICE_PREFIX + "/dept/discovery",
+                Object.class);
+    }
 }

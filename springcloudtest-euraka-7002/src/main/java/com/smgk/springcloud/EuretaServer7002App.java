@@ -3,10 +3,12 @@ package com.smgk.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class DeptConsumer80App {
+@EnableEurekaServer
+public class EuretaServer7002App {
     public static void main(String[] args){
-        SpringApplication.run(DeptConsumer80App.class, args);
+        SpringApplication.run(EuretaServer7002App.class, args);
     }
 }

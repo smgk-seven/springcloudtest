@@ -8,8 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloudtest-api" />
         <module name="springcloudtest-consumer-dept-80" />
+        <module name="springcloudtest-consumer-dept-feign" />
         <module name="springcloudtest-euraka-7001" />
+        <module name="springcloudtest-euraka-7002" />
+        <module name="springcloudtest-eureka-7003" />
         <module name="springcloudtest-provider-dept-8001" />
+        <module name="springcloudtest-provider-dept-8002" />
+        <module name="springcloudtest-provider-dept-8003" />
+        <module name="springcloudtest-provider-dept-hystrix-8010" />
       </profile>
     </annotationProcessing>
   </component>

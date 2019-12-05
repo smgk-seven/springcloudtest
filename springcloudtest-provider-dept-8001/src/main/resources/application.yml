@@ -46,8 +46,8 @@ mybatis:
 eureka:
   client:
     service-url:
-      #defaultZone: eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+      #defaultZone: http://localhost:7001/eureka
   instance:
     #服务实例名称修改
     instance-id: springcloudtest-provider-dept-8001
@@ -56,6 +56,6 @@ eureka:
 
 info:
   app.name: springcloudtest-micoservices
-  company.name: www.gxs.com
+  company.name: www.smgk.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}

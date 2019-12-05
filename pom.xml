@@ -10,9 +10,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>springcloudtest-api</module>
-        <module>springcloudtest-provider-dept-8001</module>
         <module>springcloudtest-consumer-dept-80</module>
+        <module>springcloudtest-provider-dept-8001</module>
         <module>springcloudtest-euraka-7001</module>
+        <module>springcloudtest-euraka-7002</module>
+        <module>springcloudtest-eureka-7003</module>
+        <module>springcloudtest-provider-dept-8002</module>
+        <module>springcloudtest-provider-dept-8003</module>
+        <module>springcloudtest-consumer-dept-feign</module>
+        <module>springcloudtest-provider-dept-hystrix-8010</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
