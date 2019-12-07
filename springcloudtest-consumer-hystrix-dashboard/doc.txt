@@ -1,0 +1,5 @@
+springcloudtest-consumer-hystrix-dashboard
+
+对微服务的监控
+商品 ：9001
+访问：http://localhost:9001/hystrix
