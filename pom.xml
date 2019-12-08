@@ -19,6 +19,7 @@
         <module>springcloudtest-provider-dept-8003</module>
         <module>springcloudtest-consumer-dept-feign</module>
         <module>springcloudtest-provider-dept-hystrix-8010</module>
+        <module>springcloudtest-consumer-hystrix-dashboard</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

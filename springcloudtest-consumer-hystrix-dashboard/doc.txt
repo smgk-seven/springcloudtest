@@ -1,5 +1,11 @@
 springcloudtest-consumer-hystrix-dashboard
 
 对微服务的监控
-商品 ：9001
+端口 ：9001
 访问：http://localhost:9001/hystrix
+监控服务方法 ：
+
+http://localhost:8010/hystrix.stream  直接在地址框中输入要监控的微服务商品+ /hystrix.stream 即可进入图形监控数据界面
+Delay--->多少毫秒刷新一次监控次数
+
+

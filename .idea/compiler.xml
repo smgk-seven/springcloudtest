@@ -9,6 +9,7 @@
         <module name="springcloudtest-api" />
         <module name="springcloudtest-consumer-dept-80" />
         <module name="springcloudtest-consumer-dept-feign" />
+        <module name="springcloudtest-consumer-hystrix-dashboard" />
         <module name="springcloudtest-euraka-7001" />
         <module name="springcloudtest-euraka-7002" />
         <module name="springcloudtest-eureka-7003" />
