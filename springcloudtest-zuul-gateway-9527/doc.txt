@@ -1,0 +1,26 @@
+zuul 是springcloud中的网关配置，
+注意，zuul也是一个服务，也要被注入eureka里面，
+使用都是在配置文件配置即可，
+
+配置文件：
+zuul:
+  routes:
+    mydept.serviceId: springcloudtest-dept
+    mydept.path: /mydept/*
+  #ignored-services 隐藏服务映射名
+  #多个用"*" ignored-services: "*"
+  ignored-services: springcloudtest-dept
+  prefix: /springcloud
+
+routes下面可以有多个，例如 mydept、mydept1、mydept2
+每一个路由的配置都有两个配置点
+serviceId：需要映射的服务名，这个对应的是微服务中的spring:application:name: springcloudtest-dept
+path: 对应映射成的地址，
+
+auul下的配置：
+prefix：前缀
+ignored-services：需要忽略访问的服务名，登录要禁止的路径，全部可以默认"*"
+
+访问路径
+http://myzuul.com:9527/springcloud/mydept/dept
+        域名     ： 端口/ prefix/ routerPath/ 微服务中controller的url

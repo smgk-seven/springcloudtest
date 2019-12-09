@@ -17,6 +17,7 @@
         <module name="springcloudtest-provider-dept-8002" />
         <module name="springcloudtest-provider-dept-8003" />
         <module name="springcloudtest-provider-dept-hystrix-8010" />
+        <module name="springcloudtest-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
   </component>

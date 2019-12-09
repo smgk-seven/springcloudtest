@@ -1,6 +1,0 @@
-com\smgk\springcloud\entities\Dept.class
-com\smgk\springcloud\server\DeptClientServiceFallBackFactory.class
-com\smgk\springcloud\entities\Msg.class
-com\smgk\springcloud\entities\LeeJSONResult.class
-com\smgk\springcloud\server\DeptClientServiceFallBackFactory$1.class
-com\smgk\springcloud\server\DeptClientService.class
