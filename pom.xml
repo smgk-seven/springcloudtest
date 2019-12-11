@@ -22,6 +22,7 @@
         <module>springcloudtest-consumer-hystrix-dashboard</module>
         <module>springcloudtest-zuul-gateway-9527</module>
         <module>springcloudtest-config-3344</module>
+        <module>springcloudtest-config-client-3355</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

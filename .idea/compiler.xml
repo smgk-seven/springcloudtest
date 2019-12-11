@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloudtest-api" />
         <module name="springcloudtest-config-3344" />
+        <module name="springcloudtest-config-client-3355" />
         <module name="springcloudtest-consumer-dept-80" />
         <module name="springcloudtest-consumer-dept-feign" />
         <module name="springcloudtest-consumer-hystrix-dashboard" />
