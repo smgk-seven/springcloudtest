@@ -23,6 +23,8 @@
         <module>springcloudtest-zuul-gateway-9527</module>
         <module>springcloudtest-config-3344</module>
         <module>springcloudtest-config-client-3355</module>
+        <module>springcloudtest-config-euraka-7001</module>
+        <module>springcloudtest-config-dept-8001</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
